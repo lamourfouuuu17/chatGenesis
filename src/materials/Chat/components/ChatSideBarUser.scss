@@ -1,0 +1,37 @@
+.userPhoto{
+    width: 65px;
+    height: 65px;
+    border-radius: 3px;
+}
+
+.userName{
+    color: #333333;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.userDesc{
+    color: #999999;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.sideBarUser{
+    &:hover, :active, :focus{
+        background-color: #f8f8f8;
+    }
+}
+
+.sideBarUserDiv{
+    position: relative;
+}
+.sideBarUserCircle{
+    background: #20d63e;
+    border-radius: 50%;
+    height: 1.2em;
+    width: 1.2em;
+    position: absolute;
+    bottom: -4px;
+    right: -7px;
+}

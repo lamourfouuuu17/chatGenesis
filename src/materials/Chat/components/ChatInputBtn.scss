@@ -1,0 +1,19 @@
+@import "./src/static/colors.scss";
+
+.chatInputBtn{
+    width: 50vw;
+    outline: none;
+    border: 1px solid $timeColor;
+    border-radius: 3px;
+    &:hover{
+        border: 1px solid $blueOutline;
+    }
+    &:focus{
+        border: 1px solid $blueOutline;
+        box-shadow: 0 0 10px $blueOutline;
+    }
+    &::placeholder {
+        color: #999999;
+        font-size: 14px;
+      }
+}

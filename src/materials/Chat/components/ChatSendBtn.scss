@@ -1,0 +1,18 @@
+@import "./src/static/colors.scss";
+
+.chatSendBtn{
+    outline: none;
+    border: none;
+    border: 1px solid  $sendBtnColor;
+    width: 15vw;
+    border-radius: 4px;
+    background-color: $sendBtnColor;
+    color: $whiteColor;
+    margin-left: 3px;
+    &:hover{
+        border: 1px solid $darkBlueOutline;
+    }
+    &:focus{
+        border: 1px solid $darkBlueOutline;
+    }
+}
